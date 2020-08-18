@@ -45,20 +45,6 @@ class Bangangte extends StatelessWidget {
                 );
               },
             ),
-            /* actions: <Widget>[
-              IconButton(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => OurLanguages()),
-                  );
-                },
-              )
-            ],*/
           ),
           body: ListView(
             //padding: EdgeInsets.zero,
@@ -94,13 +80,6 @@ class Bangangte extends StatelessWidget {
                 leading: (Image.asset('assets/history.jpeg')),
                 trailing: Icon(Icons.arrow_forward_ios),
               ),
-
-              //Do it later for automatic translation using artificial intelligence
-              /*ListTile(
-                title: Text("Translation", style: TextStyle(fontSize: 19.0)),
-                leading: (Image.asset('assets/history.jpeg')),
-                trailing: Icon(Icons.arrow_forward_ios),
-              )*/
             ],
           ),
           bottomNavigationBar: BottomAppBar(
@@ -119,18 +98,6 @@ class Bangangte extends StatelessWidget {
                       );
                     },
                   ),
-                  /*IconButton(
-                    icon: Icon(
-                      Icons.search,
-                      color: Colors.white,
-                    ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => OurLanguages()),
-                      );
-                    },
-                  )*/
                 ],
               ),
               color: Colors.green[900]),

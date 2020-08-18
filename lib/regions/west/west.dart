@@ -29,35 +29,10 @@ class West extends StatelessWidget {
                 );
               },
             ),
-
-            /*actions: <Widget>[
-              IconButton(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => OurLanguages()),
-                  );
-                },
-              )
-            ],*/
           ),
           body: ListView(
             //padding: EdgeInsets.zero,
             children: [
-              /*Stack(
-                children: <Widget>[
-                  Container(
-                      height: MediaQuery.of(context).size.height,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(75.0))))
-                ],
-              ),*/
               ListTile(
                 title: Text("Bangangte", style: TextStyle(fontSize: 19.0)),
                 trailing: Icon(Icons.arrow_forward_ios),
@@ -137,11 +112,6 @@ class West extends StatelessWidget {
                       color: Colors.white,
                     ),
                     onPressed: () {
-                      /* Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => OurLanguages()),
-                        );*/
                       showSearch(context: context, delegate: TownWestSearch());
                     },
                   )

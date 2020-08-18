@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4c3c4c0-3ef4-45e3-a2fd-c34ef34d1b2e" name="Default Changelist" comment="" />
+    <list default="true" id="d4c3c4c0-3ef4-45e3-a2fd-c34ef34d1b2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/abaaf9e814871bda1c5a290d48826922/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/abaaf9e814871bda1c5a290d48826922/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fh7oapJsjwcOOJ0AZoEmgfLrVz" />
   <component name="ProjectViewState">
@@ -55,6 +78,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="939" y="392" width="525" height="421" key="#com.intellij.ide.util.TreeFileChooserDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1597164858680" />
+    <state x="643" y="285" width="624" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597701471110">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="643" y="285" width="624" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1597701471110" />
     <state x="720" y="427" width="470" height="257" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597160311813">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -87,10 +114,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="100" y="125" width="1720" height="855" key="com.android.tools.idea.avdmanager.AvdListDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1597159048826" />
-    <state x="722" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1597157029899">
+    <state x="722" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1597701791978">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="722" y="355" key="com.intellij.ide.util.TipDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1597157029899" />
+    <state x="722" y="355" key="com.intellij.ide.util.TipDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1597701791978" />
     <state x="624" y="251" key="run.anything.popup" timestamp="1597159125675">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>

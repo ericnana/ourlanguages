@@ -59,20 +59,6 @@ class DictionaryBangangte extends StatelessWidget {
                 );
               },
             ),
-            /*actions: <Widget>[
-              IconButton(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => OurLanguages()),
-                  );
-                },
-              )
-            ],*/
           ),
           body: ListView(
             //padding: EdgeInsets.zero,

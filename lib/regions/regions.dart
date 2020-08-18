@@ -62,23 +62,6 @@ class _OurRegions extends State<Regions> {
                           //AppLocalizations.of(context).translate('our_regions'),
                           textAlign: TextAlign.center)),
                   leading: Icon(Icons.crop),
-
-                  //Not needed at the moment for redirecting to the main home page
-                  /*actions: <Widget>[
-                    IconButton(
-                      icon: Icon(
-                        Icons.home,
-                        color: Colors.white,
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => OurLanguages()),
-                        );
-                      },
-                    )
-                  ],*/
                 ),
                 ListTile(
                   title: Text("South".i18n, style: TextStyle(fontSize: 18.0)),
@@ -140,7 +123,6 @@ class _OurRegions extends State<Regions> {
               ],
             ),
           ),
-          //floatingActionButton: FloatingActionButton(backgroundColor: Colors.green[900],onPressed: null,child: Text('Press'),),
 
           appBar: AppBar(
               title: Center(
@@ -151,23 +133,6 @@ class _OurRegions extends State<Regions> {
                   child: Icon(
                     Icons.menu,
                   ))),
-
-          //Background color of the main page set to a favorite color
-          //backgroundColor: Colors.green[900],
-
-          //Adding center image
-          /* body: Center(
-            child: Image.asset('assets/country.png'),
-          ), */
-
-          /*body: Container(
-            height: MediaQuery.of(context).size.height,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.only(topLeft:Radius.circular(75.0))
-            )
-
-          ),*/
 
           //Adding background image
           body: Container(

@@ -67,10 +67,6 @@ class TownWestSearch extends SearchDelegate<ListWest> {
                       break;
                     //default:
                   }
-                  /*Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Bangangte()),
-                  );*/
                 },
                 title: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
