@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:our_languages/main.dart';
 import 'package:our_languages/regions/regions.dart';
 import 'package:our_languages/regions/west/west.dart';
+import 'package:our_languages/welcome/welcome.dart';
 import 'dicitionary_bangangte.dart';
 import 'package:our_languages/i18n/content.i18n.dart';
 
@@ -48,15 +49,22 @@ class Bangangte extends StatelessWidget {
           ),
           body: ListView(
             //padding: EdgeInsets.zero,
+
+/*             final imagesList = [
+  "assets/count.jpeg",
+  "assets/history.jpeg",
+  "assets/alphabet.jpeg",
+  "assets/diverse.png",
+]; */
             children: [
-              ListTile(
-                title: Text("Alphabet".i18n, style: TextStyle(fontSize: 19.0)),
-                leading: (Image.asset('assets/alphabet.jpeg')),
-                trailing: Icon(Icons.arrow_forward_ios),
-              ),
               ListTile(
                 title: Text("Numbers".i18n, style: TextStyle(fontSize: 19.0)),
                 leading: (Image.asset('assets/count.jpeg')),
+                trailing: Icon(Icons.arrow_forward_ios),
+              ),
+              ListTile(
+                title: Text("History".i18n, style: TextStyle(fontSize: 19.0)),
+                leading: (Image.asset('assets/history.jpeg')),
                 trailing: Icon(Icons.arrow_forward_ios),
               ),
               ListTile(
@@ -76,8 +84,8 @@ class Bangangte extends StatelessWidget {
               //In this it is necessary to handle such case
               //reporting about the complete history of the region's language
               ListTile(
-                title: Text("History".i18n, style: TextStyle(fontSize: 19.0)),
-                leading: (Image.asset('assets/history.jpeg')),
+                title: Text("Alphabet".i18n, style: TextStyle(fontSize: 19.0)),
+                leading: (Image.asset('assets/alphabet.jpeg')),
                 trailing: Icon(Icons.arrow_forward_ios),
               ),
             ],

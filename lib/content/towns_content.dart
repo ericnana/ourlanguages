@@ -6,15 +6,15 @@ class TownsContent {
 
 final townsContentList = [
   TownsContent(
-    title: "Alphabet",
-  ),
-  TownsContent(
     title: "Numbers",
   ),
   TownsContent(
-    title: "Dictionary",
+    title: "History",
   ),
   TownsContent(
-    title: "History",
+    title: "Alphabet",
+  ),
+  TownsContent(
+    title: "Dictionary",
   ),
 ];

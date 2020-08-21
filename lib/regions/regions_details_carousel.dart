@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:our_languages/regions/regions_details.dart';
+import 'package:our_languages/regions/west/bangangte/bangangte.dart';
+import 'package:our_languages/regions/west/bangangte/dicitionary_bangangte.dart';
 import 'package:our_languages/regions/west/west.dart';
+import 'package:our_languages/welcome/welcome.dart';
 
 import '../main.dart';
 
@@ -133,12 +136,31 @@ class _OurRegionsDetailsCarousel extends State<RegionsDetailsCarousel> {
                         Icons.adjust,
                       ),
                       onTap: () {
-                        Navigator.push(
+                        switch (regionsDetailsList[index].title) {
+                          case 'WEST':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => West()),
+                            );
+                            break;
+                          case 'LITTORAL':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => West()),
+                            );
+                            break;
+                          case 'CENTRE':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => West()),
+                            );
+                            break;
+                        }
+
+                        /* Navigator.push(
                           context,
-                          MaterialPageRoute(
-                              builder: (context) =>
-                                  regionsDetailsList[index].regionsList),
-                        );
+                          MaterialPageRoute(builder: (context) => West()),
+                        ); */
                       },
                     ),
                     SizedBox(height: 20.0),
@@ -211,15 +233,49 @@ class _OurRegionsDetailsCarousel extends State<RegionsDetailsCarousel> {
         child: Padding(
           padding: const EdgeInsets.only(left: 10.0, right: 10.0, bottom: 10.0),
           child: ClipRRect(
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(15.0),
-              bottomRight: Radius.circular(15.0),
-            ),
-            child: Image.asset(
-              imagesList[index],
-              fit: BoxFit.fitHeight,
-            ),
-          ),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(15.0),
+                bottomRight: Radius.circular(15.0),
+              ),
+              child: Row(children: <Widget>[
+                Flexible(
+                  child: GestureDetector(
+                    child: Image.asset(
+                      imagesList[index],
+                      fit: BoxFit.fitWidth,
+                    ),
+                    onTap: () {
+                      switch (imagesList[index]) {
+                        case 'assets/newyork.jpg':
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => West()),
+                          );
+                          break;
+                        case 'assets/capetown.jpg':
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => West()),
+                          );
+                          break;
+
+                        case 'assets/switzerland.jpg':
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => West()),
+                          );
+                          break;
+                      }
+                      /* Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                regionsDetailsList[index].regionsList),
+                      ); */
+                    },
+                  ),
+                )
+              ])),
         ),
       ),
     );

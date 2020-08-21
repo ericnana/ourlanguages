@@ -4,6 +4,7 @@ import 'package:our_languages/content/towns_content.dart';
 import 'package:our_languages/main.dart';
 import 'package:our_languages/regions/regions_details.dart';
 import 'package:our_languages/regions/west/bangangte/dicitionary_bangangte.dart';
+import 'package:our_languages/regions/west/dictionary_west.dart';
 import 'package:our_languages/regions/west/west.dart';
 
 final imagesList = [
@@ -131,11 +132,41 @@ class _BangangteCarousel extends State<BangangteCarousel> {
                         Icons.adjust,
                       ),
                       onTap: () {
-                        Navigator.push(
+                        switch (townsContentList[index].title) {
+                          case 'Alphabet':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => West()),
+                            );
+                            break;
+                          case 'Numbers':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => West()),
+                            );
+                            break;
+
+                          case 'Dictionary':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DictionaryBangangte()),
+                            );
+                            break;
+                          case 'History':
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DictionaryBangangte()),
+                            );
+                            break;
+                        }
+
+                        /*  Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => DictionaryBangangte()),
-                        );
+                        ); */
                       },
                     ),
                     SizedBox(height: 20.0),
@@ -208,15 +239,60 @@ class _BangangteCarousel extends State<BangangteCarousel> {
         child: Padding(
           padding: const EdgeInsets.only(left: 10.0, right: 10.0, bottom: 10.0),
           child: ClipRRect(
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(15.0),
-              bottomRight: Radius.circular(15.0),
-            ),
-            child: Image.asset(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(15.0),
+                bottomRight: Radius.circular(15.0),
+              ),
+              child: Row(children: <Widget>[
+                GestureDetector(
+                  child: Image.asset(
+                    imagesList[index],
+                    fit: BoxFit.fitWidth,
+                  ),
+                  onTap: () {
+                    switch (imagesList[index]) {
+                      case 'assets/count.jpeg':
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => West()),
+                        );
+                        break;
+                      case 'assets/history.jpeg':
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => West()),
+                        );
+                        break;
+
+                      case 'assets/alphabet.jpeg':
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => West()),
+                        );
+                        break;
+                      case 'assets/diverse.png':
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DictionaryBangangte()),
+                        );
+                        break;
+                    }
+
+                    /* Navigator.push<Widget>(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => DictionaryBangangte()),
+                    ); */
+                  },
+                ),
+              ])
+
+              /* child: Image.asset(
               imagesList[index],
               fit: BoxFit.fitHeight,
-            ),
-          ),
+            ), */
+              ),
         ),
       ),
     );

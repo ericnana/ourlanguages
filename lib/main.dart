@@ -5,16 +5,24 @@ import 'package:our_languages/regions/regions.dart';
 import 'package:our_languages/regions/regions_carousel.dart';
 import 'package:our_languages/regions/regions_details_carousel.dart';
 import 'package:our_languages/regions/west/town_west_search.dart';
+import 'package:our_languages/splashscreen/splashscreen.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Welcome(),
+    home: MyApp(),
   ));
 }
 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext contextP) {
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
+  }
+}
+
 // ignore: must_be_immutable
-class Welcome extends StatefulWidget {
+/* class Welcome extends StatefulWidget {
   @override
   _WelcomeState createState() => _WelcomeState();
 }
@@ -64,3 +72,4 @@ class _WelcomeState extends State<Welcome> {
         ));
   }
 }
+ */

@@ -4,6 +4,7 @@ import 'package:our_languages/main.dart';
 import 'package:our_languages/regions/regions_details_carousel.dart';
 import 'package:our_languages/regions/west/town_west_search.dart';
 import 'package:our_languages/i18n/regions.i18n.dart';
+import 'package:our_languages/welcome/welcome.dart';
 
 import 'bangangte/bangangte_carousel.dart';
 
@@ -102,7 +103,8 @@ class West extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Welcome()),
+                        MaterialPageRoute(
+                            builder: (context) => RegionsDetailsCarousel()),
                       );
                     },
                   ),
