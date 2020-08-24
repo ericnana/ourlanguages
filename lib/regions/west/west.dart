@@ -13,7 +13,7 @@ class West extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.lightGreen[500]),
         home: Scaffold(
           appBar: AppBar(
             title:
@@ -98,7 +98,7 @@ class West extends StatelessWidget {
                   IconButton(
                     icon: Icon(
                       Icons.home,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       Navigator.push(
@@ -111,7 +111,7 @@ class West extends StatelessWidget {
                   IconButton(
                     icon: Icon(
                       Icons.search,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       showSearch(context: context, delegate: TownWestSearch());
@@ -119,7 +119,7 @@ class West extends StatelessWidget {
                   )
                 ],
               ),
-              color: Colors.green[900]),
+              color: Colors.lightGreen[500]),
         ));
   }
 }

@@ -19,9 +19,9 @@ final imageScreenList = [
 ];
 
 final colorList = [
-  Colors.redAccent.shade100,
-  Colors.blueAccent.shade100,
-  Colors.amber.shade50
+  Colors.blueGrey.shade100,
+  Colors.blueGrey.shade200,
+  Colors.blueGrey.shade300
 ];
 
 class RegionsDetailsCarousel extends StatefulWidget {
@@ -58,7 +58,7 @@ class _OurRegionsDetailsCarousel extends State<RegionsDetailsCarousel> {
     ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.lightGreen[500]),
         home: Scaffold(
           appBar: AppBar(
             title:

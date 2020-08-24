@@ -15,10 +15,10 @@ final imagesList = [
 ];
 
 final colorList = [
-  Colors.cyan.shade100,
-  Colors.green.shade100,
-  Colors.lime.shade100,
-  Colors.orange.shade100,
+  Colors.blueGrey.shade100,
+  Colors.blueGrey.shade200,
+  Colors.blueGrey.shade300,
+  Colors.blueGrey.shade400
 ];
 
 class BangangteCarousel extends StatefulWidget {
@@ -55,7 +55,7 @@ class _BangangteCarousel extends State<BangangteCarousel> {
     ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.lightGreen[500]),
         home: Scaffold(
           appBar: AppBar(
             title:
@@ -263,7 +263,6 @@ class _BangangteCarousel extends State<BangangteCarousel> {
                           MaterialPageRoute(builder: (context) => West()),
                         );
                         break;
-
                       case 'assets/alphabet.jpeg':
                         Navigator.push(
                           context,

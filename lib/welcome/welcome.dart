@@ -21,7 +21,7 @@ class _WelcomeState extends State<Welcome> {
     ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.lightGreen[500]),
         home: Scaffold(
           appBar: AppBar(
             title: Center(
@@ -42,9 +42,9 @@ class _WelcomeState extends State<Welcome> {
           body: Container(
               child: Center(
                   child: Text(
-                      'WELCOME to this application! It is about the languages spoken in Cameroon. You need to click on the icon top left to continue and discover more features',
+                      'WELCOME!\n\n This application is about the languages spoken in Cameroon. To browse further please click on the icon top left to continue.',
                       style: TextStyle(
-                          fontSize: 18.0, fontWeight: FontWeight.w900),
+                          fontSize: 18.0, fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center))),
           bottomNavigationBar: BottomAppBar(
               child: Row(

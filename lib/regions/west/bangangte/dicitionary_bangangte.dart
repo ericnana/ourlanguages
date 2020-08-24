@@ -28,7 +28,7 @@ class DictionaryBangangte extends StatelessWidget {
     ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.lightGreen[500]),
         supportedLocales: [Locale('en', 'US'), Locale('fr', 'FR')],
         localizationsDelegates: [
           //AppLocalizations.delegate,
@@ -137,7 +137,7 @@ class DictionaryBangangte extends StatelessWidget {
                   IconButton(
                     icon: Icon(
                       Icons.home,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       Navigator.push(
@@ -150,7 +150,7 @@ class DictionaryBangangte extends StatelessWidget {
                   IconButton(
                     icon: Icon(
                       Icons.search,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       showSearch(
@@ -160,7 +160,7 @@ class DictionaryBangangte extends StatelessWidget {
                   )
                 ],
               ),
-              color: Colors.green[900]),
+              color: Colors.lightGreen[500]),
         ));
   }
 }

@@ -42,7 +42,7 @@ class _OurRegionsCarousel extends State<RegionsCarousel> {
     ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primaryColor: Colors.green[900]),
+        theme: ThemeData(primaryColor: Colors.brown[800]),
         home: Scaffold(
           appBar: AppBar(
             title:
