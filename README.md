@@ -1,16 +1,9 @@
 # our_languages
 
-A new Flutter project.
+This project is about languages spoken in some other countries(right now focus is on cmr). Making it available at anytime at our disposal. The motiviation is to try to keep learning the basics and making sure those languages do not disappear by offering an application that everyone can use be it on android or iOS devices.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project has been developed mainly using android.  
+Just download and run it . To start from command line just do
+1) cd to yout project
+2) flutter run -d (device id)
