@@ -7,6 +7,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:our_languages/main.dart';
 import 'package:our_languages/regions/regions_details_carousel.dart';
 import 'package:our_languages/regions/west/bangangte/bangangte_carousel.dart';
+import 'package:our_languages/regions/west/dictionary_west.dart';
 import 'package:our_languages/welcome/welcome.dart';
 import 'bangangte.dart';
 import 'dictionary_bangangte_search.dart';
@@ -57,7 +58,7 @@ class DictionaryBangangte extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => BangangteCarousel()),
+                  MaterialPageRoute(builder: (context) => DictionaryWest()),
                 );
               },
             ),

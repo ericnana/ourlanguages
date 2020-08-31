@@ -1,4 +1,4 @@
-#Mon Aug 24 11:43:43 CEST 2020
+#Fri Aug 28 21:54:21 CEST 2020
 base.0=/home/ecnw/Public/Flutter Projects/our_languages/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

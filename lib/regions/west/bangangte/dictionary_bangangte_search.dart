@@ -87,6 +87,14 @@ class DictionaryBangangteSearch
                       );
 
                       break;
+                    case 'The eyes':
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DictionaryBangangte()),
+                      );
+
+                      break;
                     case 'Les yeux':
                       Navigator.push(
                         context,

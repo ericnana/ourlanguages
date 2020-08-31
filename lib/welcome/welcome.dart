@@ -42,7 +42,7 @@ class _WelcomeState extends State<Welcome> {
           body: Container(
               child: Center(
                   child: Text(
-                      'WELCOME!\n\n This application is about the languages spoken in Cameroon. To browse further please click on the icon top left to continue.',
+                      'WELCOME!\n\n This application is about the languages spoken in Cameroon. To browse further please click on the icon top left.',
                       style: TextStyle(
                           fontSize: 18.0, fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center))),

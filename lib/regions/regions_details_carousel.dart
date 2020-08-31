@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:our_languages/carousel/carousel_content_west.dart';
 import 'package:our_languages/regions/regions_details.dart';
 import 'package:our_languages/regions/west/bangangte/bangangte.dart';
 import 'package:our_languages/regions/west/bangangte/dicitionary_bangangte.dart';
@@ -140,7 +141,8 @@ class _OurRegionsDetailsCarousel extends State<RegionsDetailsCarousel> {
                           case 'WEST':
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => West()),
+                              MaterialPageRoute(
+                                  builder: (context) => CarouselContentWest()),
                             );
                             break;
                           case 'LITTORAL':
@@ -249,7 +251,8 @@ class _OurRegionsDetailsCarousel extends State<RegionsDetailsCarousel> {
                         case 'assets/newyork.jpg':
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => West()),
+                            MaterialPageRoute(
+                                builder: (context) => CarouselContentWest()),
                           );
                           break;
                         case 'assets/capetown.jpg':
