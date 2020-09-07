@@ -5,5 +5,5 @@ This project is about languages spoken in some other countries(right now focus i
 ## Getting Started
 This project has been developed mainly using flutter/dart java programming language on android devices.  
 Just download and run it . To start from command line just do
-1) cd to yout project
+1) cd to your project
 2) flutter run -d (device id)
